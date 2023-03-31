@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E46FBA8329D6D2C90080BA58 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FBA8229D6D2C90080BA58 /* Movie.swift */; };
+		E46FBA8529D6D4550080BA58 /* MovieListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FBA8429D6D4550080BA58 /* MovieListLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E46FBA7729D6D13B0080BA58 /* ModularTMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModularTMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46FBA8229D6D2C90080BA58 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E46FBA8429D6D4550080BA58 /* MovieListLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				E46FBA8229D6D2C90080BA58 /* Movie.swift */,
+				E46FBA8429D6D4550080BA58 /* MovieListLoader.swift */,
 			);
 			path = "Movie Feature";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46FBA8329D6D2C90080BA58 /* Movie.swift in Sources */,
+				E46FBA8529D6D4550080BA58 /* MovieListLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
