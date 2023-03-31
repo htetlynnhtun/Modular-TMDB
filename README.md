@@ -12,7 +12,7 @@ So that I can know if there's any movie that I'm interested in
 **When** the customer requests upcoming movies  
 **Then** the app should display a list of upcoming movies from API(TMDB)  
 
-### Scenario: 1
+### Scenario: 2
 
 **Given** the customer has no connectivity  
 **When** the customer requests upcoming movies  
