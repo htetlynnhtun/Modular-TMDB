@@ -47,7 +47,7 @@ So that I can know if there's any movie that I'm interested in
 ## Payload contract
 
 ```
-GET /url (TBD)
+GET https://api.themoviedb.org/3/movie/upcoming
 
 200 response
 
